@@ -17,7 +17,7 @@ def load_library(x)
   return new
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(x, ":)")
   # code goes here
 end
 
