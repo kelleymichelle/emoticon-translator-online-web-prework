@@ -33,7 +33,7 @@ def get_english_meaning(x, emoticon)
   if list["get_meaning"][emoticon] == nil
     return "Sorry, that emoticon was not found"
   else
-    return list["get_meaning"][emotion]
+    return list["get_meaning"][emoticon]
   end
 end
 
