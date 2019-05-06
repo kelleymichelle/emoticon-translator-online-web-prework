@@ -18,7 +18,7 @@ def load_library(x)
 end
 
 def get_japanese_emoticon(x, emoticon)
-  load_library(x)
+  list = load_library(x)
   
   binding.pry
 
