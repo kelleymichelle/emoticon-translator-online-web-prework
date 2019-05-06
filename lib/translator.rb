@@ -20,12 +20,10 @@ end
 def get_japanese_emoticon(x, emoticon)
   list = load_library(x)
   
-  if list["get_emoticon"].include?
-    emoticon
-  return list["get_emoticon"][emoticon]
-  
-  else
+  if list["get_emoticon"][emoticon] == nil
     return "Sorry, that emoticon was not found"
+  else
+    return list["get_emoticon"][emoticon]
   end
 end
 
